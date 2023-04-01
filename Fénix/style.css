@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cuadrado {
+    background-color: aqua;
+    width: 1920px;
+    height: 250px;
+}
+
+#imagen {
+    width: 350px;
+    height: 200px;
+
+    position: fixed;
+    top: 35px;
+    left: 350px;
+    }
+
+    .container{
+        position: fixed;
+        left: 780px;
+        top: 90px;
+    }
+
+    #conteItemsCarrusel{
+       height: 200px;
+       overflow: hidden;
+    }
+
+    .itemCarrusel{
+        border: 1px solid black;
+        height: 200px;
+        position: relative;
+    }
+
+    .tarjetaCarrusel{
+        background-color: aqua;
+        height: 100%;
+    }
+
+    .flechasCarrusel{
+        background-color: blue;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }

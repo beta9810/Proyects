@@ -1,0 +1,31 @@
+Dir: Me lista el Contenido de la carpeta donde este situado
+CLS: Me limpia todo el CMD
+CD ..: Me devuelve a la ruta anterior desde la parte que este situado
+CD "Nombre": Me mueve a la carpeta a la cual nombre
+MD "Nombre": Me crea una Carpeta con el nombre que le coloque
+mkdir "Nombre": crea una carpeta
+Copy con "Nombre.txt": Este comando me crea un documento de Texto.TXT, Luego de escribir se finaliza oprimiendo Ctrl+Z
+Type "Nombre del archivo.txt": Nos permite ver lo que hay dentro del archivo de texto creado
+Rename "Nombre de archivo o carpeta+ nuevo nombre": Renombra el archivo o carpeta deseada ejemplo jose.txt jose1.txt
+DEL\ERASE\RD:Borra directorios vacios "Nombre del archivo" :Elimina un archivo o más
+Time:Cambia la hora del sistema ejemplo, time /t=muestra la hora actual, para cambiar simplemente el comando time
+Copy "Nombre1.txt" "Nombre2.txt": copia la información dentro del archivo 1 y lo copia al 2
+Move "Nombre1.txt" "carpeta a la que deseo mover"\"Nuevo nombre.txt"
+echo "Caracter que quiera" > "nombre del archivo.txt": le manda el mensaje al archivo
+erase "Nombredelarchivo.txt": Borra el archivo
+
+Git
+
+
+ls: Me muestra lo que esta dentro de una carpeta
+cd "Nombre carpeta": Me mete dentro de una carpeta
+pwd: Me muestra el directorio especifico donde estoy
+clear: Limpia la terminal
+git status: Muestra el estado del trabajo y la carpeta
+git status -s: Muestra el estado especifico de ciertos archivos con o sin Add, osea en estapa Staged
+git add "archivo a agregar a Staged"
+git commit -m "Explicación del cambio en el archivo" Y hace el Commit
+git diff --staged: Me muestra todos los cambios en la etapa de Staged
+git diff: Muestra los cambios especificos de un archivo y para salir de los archivos presionas "Q".
+git log: Muestra todo el historial de los Commit
+git log --oneline: Este muestra el historial de una manera más especifica con un identificador
