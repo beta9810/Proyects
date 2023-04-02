@@ -1,7 +1,6 @@
 //Expressions Exercise N°2 : Ejercicio 3: Escribe la siguiente expresión como 
 //expresión en C++: (a+(b/c))/(d+(e/f))
 
-
 #include <iostream>
 
 using namespace std;
@@ -22,3 +21,4 @@ int main(){
 	
 	return 0;
 }
+
