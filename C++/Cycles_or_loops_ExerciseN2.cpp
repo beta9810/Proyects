@@ -14,7 +14,7 @@ int main(){
 		if(numbers>0){
 			cont++; //aumentamos el conteo cada vez que encuentra un numero mayor a 0	
 		}
-	}while(number != 0);
+	}while(numbers != 0);
 	
 	
 	cout<<"\nEl total de numeros mayores que 0 es: "<<cont;
