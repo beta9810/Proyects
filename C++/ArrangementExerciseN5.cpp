@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(){
-	int numbers [100],n, mayor=0;
+	int numbers [10],n, mayor=0;
 	
 	cout<<"Please insert amount of numbers for this Array"; cin>>n;
 	
@@ -18,7 +18,7 @@ int main(){
 		if(numbers[i] > mayor){
 			mayor = numbers[i];
 		}
-	}
+	} 
 	
 	cout<<"\nThe number up of vector is: "<<mayor<<endl;
 	
