@@ -19,7 +19,7 @@ int main(){
 	}
 	
 	//Coping the elements of letter2 to letters
-	
+	 
 	for(int i=0;i<5;i++){
 		letters[i]=letter2[i-5];
 	}
