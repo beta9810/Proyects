@@ -6,12 +6,16 @@ resta = 12-5
 multi = 12*5
 division = 12 / 5 #devuelve un dato float (flotante)
 
-#potenciacion (exponente) (**)
+#potenciacion (exponente) (**) 
 exponente = 12 ** 5
 
 #division baja(//)
-division_baja = 12 // 5
+division_baja = 12 // 5 #devuelve entero redondeado hacia abajo
 
 #resta o módulo
-resta = 12%5
+resto = 12%5 #
+
+tipo_de_dato = type (division_baja) #type (dato) nos devuelve que tipo de dato es 
+
+print (tipo_de_dato)
 
